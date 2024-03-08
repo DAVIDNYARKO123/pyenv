@@ -14,10 +14,7 @@
    curl https://pyenv.run | bash
    ```
 
-   Follow the instructions provided after the installation script completes.
-
 ## Step2: **Add pyenv to shell configuration file(.bashrc):**
-   Follow the instructions provided by the script to add pyenv to your shell configuration file (e.g., .bashrc or .zshrc). After that, restart your shell or run source ~/.bashrc (or source ~/.zshrc) to apply the changes.
 
    ```bash
    echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc
